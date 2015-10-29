@@ -4,17 +4,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView android:src="@drawable/cthulhu_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
     <TextView android:text="Happy Fhtagn Cthulhu!"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20sp"/>
 
     <TextView android:text="From Cultist"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20sp"/>
 
-    <ImageView android:src="@drawable/cthulhu_birthday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
